@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import "./Styling/Style.css";
+import "./Styling.css";
 import "./style.css";
 
 const lyrics = [
