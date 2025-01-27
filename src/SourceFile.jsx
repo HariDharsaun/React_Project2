@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
+import "./Styling/Style.css";
 import "./style.css";
 
 const lyrics = [
@@ -43,7 +44,7 @@ const SourceFile = () => {
 
   return (
     <div className="karaoke-app">
-      <h1 className="app-title">Karaoke Music</h1>
+      <h1 className="app-title">Karaoke Music Player</h1>
       <img
         src="\src\assets\title_card.jpg"
         alt="Karaoke Visual"
