@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import "./Styling.css";
-import "./style.css";
 
 const lyrics = [
   { time: 38, text: "Oh ho minn vettu naalil inge minsaram pole vanthayae" },
